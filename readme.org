@@ -1,0 +1,45 @@
+#+TITLE: 50 Days, 50 Projects: HTML, CSS, and JavaScript
+
+Welcome to my personal repository for the "50 Days, 50 Projects" challenge based on the O'Reilly Media book series. In this repository, I will be documenting and organizing my journey of completing 50 mini-projects using HTML, CSS, and JavaScript over the span of 50 days.
+
+* Overview
+
+This repository is a collection of 50 self-contained projects, each designed to improve my skills in front-end web development. The projects will cover various concepts, techniques, and challenges, helping me to grow as a developer.
+
+* Project Structure
+
+Each project follows a consistent structure:
+
+#+begin_src none
+project-name/
+├── index.html
+├── css/
+│   └── styles.css
+└── js/
+    └── script.js
+#+end_src
+
+- `index.html`: HTML file for the project's user interface.
+- `css/styles.css`: CSS file for styling the project.
+- `js/script.js`: JavaScript file for interactivity and functionality.
+  
+Additionally, the `images/` directory may contain project-specific images or assets.
+
+* Projects
+
+1. Project 1: Description
+2. Project 2: Description
+3. Project 3: Description
+
+Each project will have a unique focus and aim to teach me something new.
+
+* Usage
+
+Feel free to explore the projects in this repository. They are for personal learning and growth purposes only. If you find any interesting concepts or ideas, feel free to use them in your own projects.
+
+* About Me
+
+I'm just improving my front-end development skills to achieve "full stack completion"
+Follow along with my progress and feel free to connect with me if you're also undertaking this challenge or if you have any suggestions!
+
+Happy coding!
