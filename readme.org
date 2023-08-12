@@ -7,7 +7,6 @@ Welcome to my personal repository for the "50 Days, 50 Projects" challenge based
 This repository is a collection of 50 self-contained projects, each designed to improve my skills in front-end web development. The projects will cover various concepts, techniques, and challenges, helping me to grow as a developer.
 
 * Project Structure
-
 Each project follows a consistent structure:
 
 #+begin_src none
@@ -26,20 +25,17 @@ project-name/
 Additionally, the `images/` directory may contain project-specific images or assets.
 
 * Projects
-
-1. Project 1: Description
+0. [[file:BoilerPlate/][Boiler Plate]] Code
+1. [[file:Proj1-Expand/][Project 1]]: Expand Cards
 2. Project 2: Description
 3. Project 3: Description
 
 Each project will have a unique focus and aim to teach me something new.
 
 * Usage
-
 Feel free to explore the projects in this repository. They are for personal learning and growth purposes only. If you find any interesting concepts or ideas, feel free to use them in your own projects.
 
-* About Me
-
+* About
 I'm just improving my front-end development skills to achieve "full stack completion"
 Follow along with my progress and feel free to connect with me if you're also undertaking this challenge or if you have any suggestions!
-
 Happy coding!
