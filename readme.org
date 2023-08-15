@@ -7,7 +7,7 @@ Welcome to my personal repository for the "50 Days, 50 Projects" challenge based
 This repository is a collection of 50 self-contained projects, each designed to improve my skills in front-end web development. The projects will cover various concepts, techniques, and challenges, helping me to grow as a developer.
 
 * Project Structure
-Each project follows a consistent structure:
+Each project follows a consistent structure (lmao as if I'm consistent):
 
 #+begin_src none
 project-name/
