@@ -27,8 +27,9 @@ Additionally, the `images/` directory may contain project-specific images or ass
 * Projects
 0. [[file:BoilerPlate/][Boiler Plate]] Code
 1. [[file:Proj1-Expand/][Project 1]]: Expand Cards
-2. Project 2: Description
-3. Project 3: Description
+2. [[file:Proj2-Progress/][Project 2]]: page progress bars
+3. [[file:Proj3-Slide/][Project 3]]: Slide Away Page
+3. [[file:Proj4-Search/][Project 4]]: Hidden Search
 
 Each project will have a unique focus and aim to teach me something new.
 
