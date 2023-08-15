@@ -21,17 +21,27 @@ body {
   width: 90vw;
 }
 
+h1 {
+  /* top center of screen, Regardless of size */
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  text-align: center;
+}
+
 .panel {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 75vh;
   border-radius: 10px;
   color: rgb(24, 25, 38);
   -webkit-text-stroke: 0.3px rgb(202, 211, 245);
   cursor: pointer;
-  flex: 0.6;
-  margin: 10px;
+  flex: 0.4;
+  margin: 10px; /* This makes  */
   position: relative;
   transition: all 700ms ease-in;
 }

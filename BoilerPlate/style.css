@@ -16,3 +16,12 @@ body {
     background-color: rgb(24, 25, 38);
     color: rgb(202, 211, 245);
 }
+h1 {
+    /* top center of screen, Regardless of size */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    text-align: center;
+}
