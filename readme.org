@@ -29,8 +29,9 @@ Additionally, the `images/` directory may contain project-specific images or ass
 1. [[file:Proj1-Expand/][Project 1]]: Expand Cards
 2. [[file:Proj2-Progress/][Project 2]]: page progress bars
 3. [[file:Proj3-Slide/][Project 3]]: Slide Away Page
-3. [[file:Proj4-Search/][Project 4]]: Hidden Search
-3. [[file:Proj5-LoadScreen/][Project 5]]: Blur Loading Screen
+4. [[file:Proj4-Search/][Project 4]]: Hidden Search
+5. [[file:Proj5-LoadScreen/][Project 5]]: Blur Loading Screen
+6. [[file:Proj6-Scroll/][Project 6]]: Scroll Animation
 
 Each project will have a unique focus and aim to teach me something new.
 
