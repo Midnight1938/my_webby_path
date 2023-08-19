@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(90deg, #181926, #24273a);
+    background-image: linear-gradient(90deg, var(--Crust), var(--Base));
     font-family: 'Yatra One', cursive;
     display: flex;
     align-items: center;
@@ -13,7 +13,8 @@ body {
     height: 100vh;
 
     margin: 0; /* Margin makes */
-    color: rgb(202, 211, 245);
+    
+    color: var(--Text);
 }
 h1 {
     /* top center of screen, Regardless of size */
@@ -30,7 +31,7 @@ h1 {
     height: 50px;
 }
 .search .input{
-    background-color: #b8c0e0;
+    background-color: var(--Subtext1);
     border: none;
     font-size: 18px;
     padding: 15px;
@@ -42,7 +43,7 @@ h1 {
 }
 
 .btn {
-    background-color: #cad3f5;
+    background-color: var(--Text);
     border: none;
     cursor: pointer;
     font-size: 24px;

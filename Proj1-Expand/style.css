@@ -11,8 +11,8 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background-color: rgb(24, 25, 38);
-  color: rgb(202, 211, 245);
+  background-color: var(--Crust);
+  color: var(--Text);
   margin: 0; /* Margin makes */
 }
 
@@ -37,8 +37,8 @@ h1 {
   background-repeat: no-repeat;
   height: 75vh;
   border-radius: 10px;
-  color: rgb(24, 25, 38);
-  -webkit-text-stroke: 0.3px rgb(202, 211, 245);
+  color: var(--Crust);
+  -webkit-text-stroke: 0.3px var(--Text);
   cursor: pointer;
   flex: 0.4;
   margin: 10px; /* This makes  */

@@ -13,8 +13,8 @@ body {
     height: 100vh;
 
     margin: 0; /* Margin makes */
-    background-color: rgb(24, 25, 38);
-    color: rgb(202, 211, 245);
+    background-color: var(--Crust);
+    color: var(--Text);
 }
 h1 {
     /* top center of screen, Regardless of size */
