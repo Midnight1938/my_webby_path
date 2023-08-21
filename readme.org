@@ -33,6 +33,7 @@ Additionally, the `images/` directory may contain project-specific images or ass
 5. [[file:Proj5-LoadScreen/][Project 5]]: Blur Loading Screen
 6. [[file:Proj6-Scroll/][Project 6]]: Scroll Animation
 7. [[file:Proj7-Splitz/][Project 7]]: Split Landing Page
+8. [[file:Proj8-Login/][Project 8]]: Login Form Wave
 
 Each project will have a unique focus and aim to teach me something new.
 
