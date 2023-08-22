@@ -35,6 +35,7 @@ Additionally, the `images/` directory may contain project-specific images or ass
 7. [[file:Proj7-Splitz/][Project 7]]: Split Landing Page
 8. [[file:Proj8-Login/][Project 8]]: Login Form Wave
 9. [[file:Proj9-Sounds/][Project 9]]: Sounds of annoyance
+10. [[file:Proj10-Button/][Project 10]]: API to [[https://github.com/JohannesNE/literature-clock][Literature Clock]] + Joke
 
 Each project will have a unique focus and aim to teach me something new.
 
