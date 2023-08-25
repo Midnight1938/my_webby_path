@@ -37,7 +37,7 @@ Additionally, the `images/` directory may contain project-specific images or ass
 9. [[file:Proj9-Sounds/][Project 9]]: Sounds of annoyance
 10. [[file:Proj10-API/][Project 10]]: API to [[https://github.com/JohannesNE/literature-clock][Literature Clock]] + Joke
 11. [[file:Proj11-Keycode]][Project 11]]: Keycode detect and show
-11. [[file:Proj12-FAQ]][Project 12]]: FAQ Page
+11. [[file:Proj12-FAQd]][Project 12]]: FAQ Page
 
 Each project will have a unique focus and aim to teach me something new.
 
