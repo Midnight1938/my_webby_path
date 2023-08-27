@@ -39,6 +39,7 @@ Additionally, the `images/` directory may contain project-specific images or ass
 11. [[file:Proj11-Keycode]][Project 11]]: Keycode detect and show
 12. [[file:Proj12-FAQ]][Project 12]]: FAQ Page
 13. [[file:Proj13-Choicer]][Project 13]]: Choice Maker
+14. [[file:Proj14-Navbar]][Project 14]]: Nav Fallout
 
 Each project will have a unique focus and aim to teach me something new.
 
