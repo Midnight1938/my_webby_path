@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "ADLaM Display", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+
+  margin: 0; /* Margin makes */
+  background-color: var(--Crust);
+  color: var(--Text);
+}
+h1 {
+  /* top center of screen, Regardless of size */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  text-align: center;
+}
+h3 {
+  color: var(--Text);
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+}
+
+textarea {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100px;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0 0 20px;
+}
+
+.tag{
+    background-color: var(--Mauve);
+    color: var(--Base);
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+    font-size: 14px;
+    display: inline-block; /* Makes it so that the tags are on the same line */
+}
+
+.tag.highlight{
+    background-color: var(--Sapphire);
+}
