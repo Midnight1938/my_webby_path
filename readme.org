@@ -40,8 +40,9 @@ Additionally, the `images/` directory may contain project-specific images or ass
 12. [[file:Proj12-FAQ]][Project 12]]: FAQ Page
 13. [[file:Proj13-Choicer]][Project 13]]: Choice Maker
 14. [[file:Proj14-Navbar]][Project 14]]: Nav Fallout
-14. [[file:Proj15-Counter]][Project 15]]: Counter thing from all sites
-14. [[file:Proj16-WaterCount]][Project 16]]: Water Cup Count
+15. [[file:Proj15-Counter]][Project 15]]: Counter thing from all sites
+16. [[file:Proj16-WaterCount]][Project 16]]: Water Cup Count
+17. [[file:Proj17-MovieDB]][Project 17]]: Movie DB from TMDB API
 
 Each project will have a unique focus and aim to teach me something new.
 
