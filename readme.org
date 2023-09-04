@@ -43,6 +43,8 @@ Additionally, the `images/` directory may contain project-specific images or ass
 15. [[file:Proj15-Counter]][Project 15]]: Counter thing from all sites
 16. [[file:Proj16-WaterCount]][Project 16]]: Water Cup Count
 17. [[file:Proj17-MovieDB]][Project 17]]: Movie DB from TMDB API
+18. [[file:Proj18-SlideBg]][Project 18]]: Sliding Wallpapers
+
 
 Each project will have a unique focus and aim to teach me something new.
 
