@@ -44,6 +44,9 @@ Additionally, the `images/` directory may contain project-specific images or ass
 16. [[file:Proj16-WaterCount][Project 16]]: Water Cup Count
 17. [[file:Proj17-MovieDB][Project 17]]: Movie DB from TMDB API
 18. [[file:Proj18-SlideBg][Project 18]]: Sliding Wallpapers
+19. [[file:Proj19-Clocks][Project 19]]: Clock with Date
+20. [[file:Proj20-BttnRippl][Project 20]]: Button Ripple Effect
+21. [[file:Proj21-DrgDrp][Project 21]]: Drag and Drop
 
 
 Each project will have a unique focus and aim to teach me something new.
