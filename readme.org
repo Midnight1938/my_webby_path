@@ -26,29 +26,32 @@ Additionally, the `images/` directory may contain project-specific images or ass
 
 * Projects
 0. [[file:BoilerPlate/][Boiler Plate]] Code
-1. [[file:Proj1-Expand/][Project 1]]: Expand Cards
-2. [[file:Proj2-Progress/][Project 2]]: page progress bars
-3. [[file:Proj3-Slide/][Project 3]]: Slide Away Page
-4. [[file:Proj4-Search/][Project 4]]: Hidden Search
-5. [[file:Proj5-LoadScreen/][Project 5]]: Blur Loading Screen
-6. [[file:Proj6-Scroll/][Project 6]]: Scroll Animation
-7. [[file:Proj7-Splitz/][Project 7]]: Split Landing Page
-8. [[file:Proj8-Login/][Project 8]]: Login Form Wave
-9. [[file:Proj9-Sounds/][Project 9]]: Sounds of annoyance
-10. [[file:Proj10-API/][Project 10]]: API to [[https://github.com/JohannesNE/literature-clock][Literature Clock]] + Joke
-11. [[file:Proj11-Keycode][Project 11]]: Keycode detect and show
-12. [[file:Proj12-FAQ][Project 12]]: FAQ Page
-13. [[file:Proj13-Choicer][Project 13]]: Choice Maker
-14. [[file:Proj14-Navbar][Project 14]]: Nav Fallout
-15. [[file:Proj15-Counter][Project 15]]: Counter thing from all sites
-16. [[file:Proj16-WaterCount][Project 16]]: Water Cup Count
-17. [[file:Proj17-MovieDB][Project 17]]: Movie DB from TMDB API
-18. [[file:Proj18-SlideBg][Project 18]]: Sliding Wallpapers
-19. [[file:Proj19-Clocks][Project 19]]: Clock with Date
-20. [[file:Proj20-BttnRippl][Project 20]]: Button Ripple Effect
+1. [[file:1-10/Proj1-Expand/][Project 1]]: Expand Cards
+2. [[file:1-10/Proj2-Progress/][Project 2]]: page progress bars
+3. [[file:1-10/Proj3-Slide/][Project 3]]: Slide Away Page
+4. [[file:1-10/Proj4-Search/][Project 4]]: Hidden Search
+5. [[file:1-10/Proj5-LoadScreen/][Project 5]]: Blur Loading Screen
+6. [[file:1-10/Proj6-Scroll/][Project 6]]: Scroll Animation
+7. [[file:1-10/Proj7-Splitz/][Project 7]]: Split Landing Page
+8. [[file:1-10/Proj8-Login/][Project 8]]: Login Form Wave
+9. [[file:1-10/Proj9-Sounds/][Project 9]]: Sounds of annoyance
+10. [[file:1-10/Proj10-API/][Project 10]]: API to [[https://github.com/JohannesNE/literature-clock][Literature Clock]] + Joke
+11. [[file:11-20/Proj11-Keycode][Project 11]]: Keycode detect and show
+12. [[file:11-20/Proj12-FAQ][Project 12]]: FAQ Page
+13. [[file:11-20/Proj13-Choicer][Project 13]]: Choice Maker
+14. [[file:11-20/Proj14-Navbar][Project 14]]: Nav Fallout
+15. [[file:11-20/Proj15-Counter][Project 15]]: Counter thing from all sites
+16. [[file:11-20/Proj16-WaterCount][Project 16]]: Water Cup Count
+17. [[file:11-20/Proj17-MovieDB][Project 17]]: Movie DB from TMDB API
+18. [[file:11-20/Proj18-SlideBg][Project 18]]: Sliding Wallpapers
+19. [[file:11-20/Proj19-Clocks][Project 19]]: Clock with Date
+20. [[file:11-20/Proj20-BttnRippl][Project 20]]: Button Ripple Effect
 21. [[file:Proj21-DrgDrp][Project 21]]: Drag and Drop
-21. [[file:Proj22-Canvus][Project 22]]: Drawing Canvas
-21. [[file:Proj23-loading][Project 23]]: Loading Page
+22. [[file:Proj22-Canvus][Project 22]]: Drawing Canvas
+23. [[file:Proj23-loading][Project 23]]: Loading Page
+24. [[file:Proj24-CntntBox][Project 24]]: Content Box with loading
+25. [[file:Proj25-WebTop][Project 25]]: Website Top Bar
+
 
 
 Each project will have a unique focus and aim to teach me something new.
