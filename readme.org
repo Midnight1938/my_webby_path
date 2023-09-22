@@ -51,6 +51,7 @@ Additionally, the `images/` directory may contain project-specific images or ass
 23. [[file:Proj23-loading][Project 23]]: Loading Page
 24. [[file:Proj24-CntntBox][Project 24]]: Content Box with loading
 25. [[file:Proj25-WebTop][Project 25]]: Website Top Bar
+25. [[file:Proj26-VertSlide][Project 26]]: Vertical Sliders
 
 
 
