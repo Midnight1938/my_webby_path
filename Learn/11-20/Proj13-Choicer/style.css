@@ -47,16 +47,16 @@ textarea {
   margin: 0 0 20px;
 }
 
-.tag{
-    background-color: var(--Mauve);
-    color: var(--Base);
-    border-radius: 50px;
-    padding: 10px 20px;
-    margin: 0 5px 10px 0;
-    font-size: 14px;
-    display: inline-block; /* Makes it so that the tags are on the same line */
+.tag {
+  background-color: var(--Mauve);
+  color: var(--Base);
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  font-size: 14px;
+  display: inline-block; /* Makes it so that the tags are on the same line */
 }
 
-.tag.highlight{
-    background-color: var(--Sapphire);
+.tag.highlight {
+  background-color: var(--Sapphire);
 }

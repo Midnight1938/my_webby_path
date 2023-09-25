@@ -1,13 +1,12 @@
 :root {
-    --Mauve: 198, 160, 246;
-    --Peach: 245, 169, 127;
-    --Surface0: 54, 58, 79;
-    --Crust: #181926;
+  --Mauve: 198, 160, 246;
+  --Peach: 245, 169, 127;
+  --Surface0: 54, 58, 79;
+  --Crust: #181926;
 }
 html,
 body {
   background-color: var(--Crust);
-  
 }
 
 body {
@@ -129,27 +128,27 @@ body:has(.card[data-color="gray"]:hover) {
 }
 
 /* Keyframe Animation */
-@keyframes fade-left{
-    from{
-        scale: 1;
-        translate: 0%;
-        opacity: 1;
-    }
-    to{
-        scale: 0.8;
-        translate: -30%;
-        opacity: 0;
-    }
+@keyframes fade-left {
+  from {
+    scale: 1;
+    translate: 0%;
+    opacity: 1;
+  }
+  to {
+    scale: 0.8;
+    translate: -30%;
+    opacity: 0;
+  }
 }
-@keyframes fade-right{
-    from{
-        scale: 1;
-        translate: 0%;
-        opacity: 1;
-    }
-    to{
-        scale: 0.8;
-        translate: 30%;
-        opacity: 0;
-    }
+@keyframes fade-right {
+  from {
+    scale: 1;
+    translate: 0%;
+    opacity: 1;
+  }
+  to {
+    scale: 0.8;
+    translate: 30%;
+    opacity: 0;
+  }
 }

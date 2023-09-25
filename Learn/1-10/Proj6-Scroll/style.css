@@ -16,34 +16,34 @@ body {
   color: var(--Text);
 }
 
-h1{
-    margin: 10px;
+h1 {
+  margin: 10px;
 }
 
-.box{
-    background-color: var(--Peach);
-    color: var(--Text);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 200px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px var(--Overlay0);
-    transform: translateX(400%);
-    transition: transform 500ms ease-in;
+.box {
+  background-color: var(--Peach);
+  color: var(--Text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px var(--Overlay0);
+  transform: translateX(400%);
+  transition: transform 500ms ease-in;
 }
 
-.box:nth-of-type(even){
-    transform: translateX(-400%);
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
 }
 
-.box.show{
-    transform: translateX(0);
+.box.show {
+  transform: translateX(0);
 }
 
-.box h2{
-    font-size: 3rem;
-    font-weight: 700;
+.box h2 {
+  font-size: 3rem;
+  font-weight: 700;
 }

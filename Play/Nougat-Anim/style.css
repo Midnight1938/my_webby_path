@@ -19,28 +19,28 @@
   mix-blend-mode: screen;
 }
 .circle:nth-child(1) {
-  border-color: #DB4437;
+  border-color: #db4437;
   transform-origin: 50% 50%;
   -webkit-animation: spin1 12s linear infinite;
-          animation: spin1 12s linear infinite;
+  animation: spin1 12s linear infinite;
 }
 .circle:nth-child(2) {
-  border-color: #F4B400;
+  border-color: #f4b400;
   transform-origin: 50% 50%;
   -webkit-animation: spin2 12s linear infinite;
-          animation: spin2 12s linear infinite;
+  animation: spin2 12s linear infinite;
 }
 .circle:nth-child(3) {
-  border-color: #4285F4;
+  border-color: #4285f4;
   transform-origin: 50% 50%;
   -webkit-animation: spin3 12s linear infinite;
-          animation: spin3 12s linear infinite;
+  animation: spin3 12s linear infinite;
 }
 .circle:nth-child(4) {
-  border-color: #0F9D58;
+  border-color: #0f9d58;
   transform-origin: 50% 50%;
   -webkit-animation: spin4 12s linear infinite;
-          animation: spin4 12s linear infinite;
+  animation: spin4 12s linear infinite;
 }
 
 @-webkit-keyframes spin1 {

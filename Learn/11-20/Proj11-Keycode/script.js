@@ -1,11 +1,14 @@
-const insert = document.getElementById('insert');
+const insert = document.getElementById("insert");
 
-window.addEventListener('keydown', (event) => {
-    const uniCode = event.key === ' ' ? 'Space' : event.key.codePointAt(0).toString(16).toUpperCase();
-    
-    insert.innerHTML = `
+window.addEventListener("keydown", (event) => {
+  const uniCode =
+    event.key === " "
+      ? "Space"
+      : event.key.codePointAt(0).toString(16).toUpperCase();
+
+  insert.innerHTML = `
         <div class="key">
-            ${event.key === ' ' ? 'Space' : event.key}
+            ${event.key === " " ? "Space" : event.key}
             <small>event.key</small>
         </div>
         <div class="key">

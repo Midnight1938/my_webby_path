@@ -96,11 +96,11 @@ img {
 }
 
 .animated-bg-text {
-    border-radius: 50px;
-    display: inline-block;
-    margin: 0;
-    height: 15px;
-    width: 100%;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0;
+  height: 15px;
+  width: 100%;
 }
 
 @keyframes bgPos {

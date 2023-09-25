@@ -11,21 +11,22 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" type="text/css" href="/colours.css" />
-    <title>Water Shots</title>
+    <title>Auto Typing Text</title>
   </head>
   <body>
-    <h1>Drinks</h1>
-    <h3>Goal: 5 Liters</h3>
-    <div class="cup">
-      <div class="remained" id="remained">
-        <span id="liters"></span>
-        <small>Remains</small>
-      </div>
-      <div class="percentage" id="percentage"></div>
-    </div>
-    <p class="text">Select how many glasses you've drunk</p>
-    <div class="cups" id="cups-container">
-      <!-- <div class="cup cup-small">250 ml</div> -->
+    <h2 id="text">Starting...</h2>
+
+    <div>
+      <label for="speed">Speed:</label>
+      <input
+        type="number"
+        name="speed"
+        id="speed"
+        value="1"
+        min="1"
+        max="5"
+        step="1"
+      />
     </div>
     <script src="script.js"></script>
   </body>

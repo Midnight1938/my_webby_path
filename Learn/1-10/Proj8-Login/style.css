@@ -54,8 +54,8 @@ body {
   transform: scale(0.98);
 }
 
-.text{
-    margin-top: 30px;
+.text {
+  margin-top: 30px;
 }
 
 .form-control {
@@ -81,21 +81,21 @@ body {
   border-bottom-color: var(--Blue);
 }
 
-.form-control label{
-    position: absolute;
-    top: 15px;
-    left: 0;
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
 }
 
-.form-control label span{
-    display: inline-block;
-    font-size: 18px;
-    min-width: 5px;
-    transition: 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .form-control input:focus + label span,
-.form-control input:valid + label span{
-    color: var(--Lavender);
-    transform: translateY(-30px);
+.form-control input:valid + label span {
+  color: var(--Lavender);
+  transform: translateY(-30px);
 }

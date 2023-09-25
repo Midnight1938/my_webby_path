@@ -35,26 +35,24 @@ function highlightCups(idx) {
 }
 
 function updateBigCup() {
-    const fullCp = document.querySelectorAll('.cup-small.full').length;
-    const totalCp = document.querySelectorAll('.cup-small').length;
+  const fullCp = document.querySelectorAll(".cup-small.full").length;
+  const totalCp = document.querySelectorAll(".cup-small").length;
 
-    if(fullCp === 0) {
-        percentage.style.visibility = 'hidden';
-        percentage.style.height = 0;
-    }
-    else {
-        percentage.style.visibility = 'visible';
-        percentage.style.height = `${fullCp / totalCp * 330}px`;
-        // floor to 2 precision
-        percentage.innerText = `${Math.floor(fullCp / totalCp *100)}%`;
-        console.log(fullCp / totalCp * 100);
-    }
-    if(fullCp === totalCp) {
-        remained.style.visibility = 'hidden';
-        remained.style.height = 0;
-    } else {
-        remained.style.visibility = 'visible';
-        liters.innerText = `${((totalCups*250)/1000) - (250 * fullCp / 1000)}L`;
-    }
+  if (fullCp === 0) {
+    percentage.style.visibility = "hidden";
+    percentage.style.height = 0;
+  } else {
+    percentage.style.visibility = "visible";
+    percentage.style.height = `${(fullCp / totalCp) * 330}px`;
+    // floor to 2 precision
+    percentage.innerText = `${Math.floor((fullCp / totalCp) * 100)}%`;
+    console.log((fullCp / totalCp) * 100);
+  }
+  if (fullCp === totalCp) {
+    remained.style.visibility = "hidden";
+    remained.style.height = 0;
+  } else {
+    remained.style.visibility = "visible";
+    liters.innerText = `${(totalCups * 250) / 1000 - (250 * fullCp) / 1000}L`;
+  }
 }
-

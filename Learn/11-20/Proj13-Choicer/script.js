@@ -33,34 +33,35 @@ function createTags(input) {
 }
 
 function randomSelect() {
-    const times = 30;
-    const interval = setInterval(() => {
-        const randomTag = pickRandomTag();
+  const times = 30;
+  const interval = setInterval(() => {
+    const randomTag = pickRandomTag();
 
-        lightTag(randomTag, true);
-
-        setTimeout(() => {
-            lightTag(randomTag, false);
-        }, 100);
-    },100);
+    lightTag(randomTag, true);
 
     setTimeout(() => {
-        clearInterval(interval);
-        setTimeout(() => {
-            const randomTag = pickRandomTag();
-            lightTag(randomTag, true);
-        }, 100)
-    }, times*100)
+      lightTag(randomTag, false);
+    }, 100);
+  }, 100);
+
+  setTimeout(() => {
+    clearInterval(interval);
+    setTimeout(() => {
+      const randomTag = pickRandomTag();
+      lightTag(randomTag, true);
+    }, 100);
+  }, times * 100);
 }
 
 function pickRandomTag() {
-    const tags = document.querySelectorAll(".tag");
-    return tags[Math.floor(Math.random() * tags.length)];
+  const tags = document.querySelectorAll(".tag");
+  return tags[Math.floor(Math.random() * tags.length)];
 }
 
 function lightTag(tag, truth) {
-    if (truth) {
-    tag.classList.add("highlight");} else {
-        tag.classList.remove("highlight");
-    }
+  if (truth) {
+    tag.classList.add("highlight");
+  } else {
+    tag.classList.remove("highlight");
+  }
 }

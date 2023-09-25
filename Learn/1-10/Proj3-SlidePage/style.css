@@ -68,9 +68,10 @@ body {
   transform-origin: top left;
 }
 
-.container.show-nav +nav li { /* Direct nav after li*/
-    transform: translateX(0);
-    transform-delay: 300ms;
+.container.show-nav + nav li {
+  /* Direct nav after li*/
+  transform: translateX(0);
+  transform-delay: 300ms;
 }
 
 nav {

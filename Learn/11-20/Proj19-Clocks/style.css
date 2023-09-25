@@ -10,7 +10,7 @@
 
 html {
   background-color: var(--secondary-color);
-    transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
 }
 
 /* Dark Mode Setting */
