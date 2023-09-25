@@ -52,7 +52,8 @@ Additionally, the `images/` directory may contain project-specific images or ass
 24. [[file:Proj24-CntntBox][Project 24]]: Content Box with loading
 25. [[file:Proj25-WebTop][Project 25]]: Website Top Bar
 25. [[file:Proj26-VertSlide][Project 26]]: Vertical Sliders
-
+26. [[file:Proj27-Notifyer][Project 27]]: Notification Popup
+27. [[file:Proj28-GayhubProf][Project 28]]: gayhub profile
 
 
 Each project will have a unique focus and aim to teach me something new.
