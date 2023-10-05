@@ -57,6 +57,7 @@ Additionally, the `images/` directory may contain project-specific images or ass
 29. Project 29: Double Heart Click. Really not interested, like the circle. Heres [[https://github.com/bradtraversy/50projects50days/tree/master/double-click-heart][Github]]
 30. [[file:21-30/Proj30-AutoTxt][Project 30]]: Automatic Text Typing Effect
 31. [[file:31-40/Proj31-PwdGen][Project 31]]: Password Generator
+32. [[file:31-40/Proj32-RadioBtns][Project 32]]: slidy radio check box
 
 Each project will have a unique focus and aim to teach me something new.
 
