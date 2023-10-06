@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Martian Mono', monospace;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0; /* Margin makes */
+  padding-top: 3rem;
+  background-color: var(--Crust);
+  color: var(--Text);
+}
+.add{
+  position: fixed;
+  top: 1.5rem;
+  right: 1rem;
+  background-color: var(--Lavender);
+  color: var(--Crust);
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.note{
+  background-color: var(--Base);
+  box-shadow: 0 0 10px 4px rgba(110, 115, 141, 0.1);
+  margin: 30px 20px;
+  height: 300px;
+  width: 250px;
+}
+.note .tools{
+  background-color: var(--Maroon);
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.note .tools button{
+  background-color: transparent;
+  border: none;
+  color: var(--Crust);
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.note textarea{
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  height: 300px;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--Base);
+  color: var(--Text);
+}
+
+.main{
+  padding: 0 1rem;
+}
+
+.hidden{
+  display: none;
+}

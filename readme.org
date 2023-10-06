@@ -58,6 +58,7 @@ Additionally, the `images/` directory may contain project-specific images or ass
 30. [[file:21-30/Proj30-AutoTxt][Project 30]]: Automatic Text Typing Effect
 31. [[file:31-40/Proj31-PwdGen][Project 31]]: Password Generator
 32. [[file:31-40/Proj32-RadioBtns][Project 32]]: slidy radio check box
+33. [[file:31-40/Proj33-NoteTake][Project 33]]: Notes taking app - data storage wont work with hardened firefox
 
 Each project will have a unique focus and aim to teach me something new.
 
