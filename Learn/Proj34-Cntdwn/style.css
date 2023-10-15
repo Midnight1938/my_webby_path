@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Pixelify Sans", cursive;
+  height: 100vh;
+  overflow: hidden;
+
+  margin: 0; /* Margin makes */
+  background-color: var(--Crust);
+  color: var(--Text);
+}
+
+.counter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.counter.hide {
+  opacity: 0;
+  animation: hide 150ms ease-out;
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.final {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
+}
+
+.final.show {
+  transform: translate(-50%, -50%) scale(1);
+  animation: show 200ms ease-out;
+}
+
+@keyframes show {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  30% {
+    transform: translate(-50%, -50%) scale(1.8);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}

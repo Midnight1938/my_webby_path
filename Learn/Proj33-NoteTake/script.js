@@ -2,11 +2,11 @@ const addBtn = document.getElementById("add");
 const notes = JSON.parse(localStorage.getItem("notes")); // Get the notes from the local storage
 
 //! Culprit of the bug
-if (notes) {
-  notes.forEach(note => addNewNote(note)); // Add a new note for each note in the notes array
-}
+// if (notes) {
+//   notes.forEach(note => addNewNote(note)); // Add a new note for each note in the notes array
+// }
 
-addBtn.addEventListener("click", () => addNewNote());
+addBtn.addEventListener("click", () => addNewNote())
 
 function addNewNote(text = '') {
   const note = document.createElement("div");
