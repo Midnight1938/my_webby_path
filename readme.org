@@ -60,6 +60,10 @@ Additionally, the `images/` directory may contain project-specific images or ass
 32. [[file:31-40/Proj32-RadioBtns][Project 32]]: slidy radio check box
 33. [[file:31-40/Proj33-NoteTake][Project 33]]: Notes taking app - data storage wont work with hardened firefox
 
+Skipping Chapters to interesting ones
+
+36. [[file:31-40/Proj36-FAQ][Project 36]]: Hover Highlight grid
+
 Each project will have a unique focus and aim to teach me something new.
 
 * Usage
