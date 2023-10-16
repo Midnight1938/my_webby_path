@@ -63,6 +63,7 @@ Additionally, the `images/` directory may contain project-specific images or ass
 Skipping Chapters to interesting ones
 
 36. [[file:31-40/Proj36-FAQ][Project 36]]: Hover Highlight grid
+36. [[file:31-40/Proj37-Pokedex][Project 37]]: Pokedex with API calls
 
 Each project will have a unique focus and aim to teach me something new.
 
