@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&family=Yatra+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Yatra One", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+
+  margin: 0; /* Margin makes */
+  background-color: var(--Crust);
+  color: var(--Text);
+}
+h1 {
+  font-size: calc(2rem + 2vw);
+  white-space: nowrap;
+  padding-right: 10px;
+  transition: transform 300ms ease-in-out;
+}
+canvas {
+  background-color: var(--Surface0);
+  border: 2px solid var(--Teal);
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.toolbox {
+  position: absolute;
+  bottom: 0;
+  display: flex; /* flex makes the buttons go side by side */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  background-color: var(--Surface2);
+  border: 1px solid var(--Teal);
+  padding: 0.4rem;
+}
+.toolbox > * {
+  background-color: var(--Overlay1);
+  color: var(--Text);
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  height: 50px;
+  width: 50px;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+.toolbox > *:hover {
+  background-color: var(--Surface1);
+  cursor: pointer;
+}
+.toolbox > *:last-child {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1150px) {
+  .dr {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    transform-origin: center;
+  }
+  .thgs {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(360deg);
+    transform-origin: center;
+  }
+}

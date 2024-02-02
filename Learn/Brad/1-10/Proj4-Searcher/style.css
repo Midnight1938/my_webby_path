@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&family=Yatra+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, var(--Crust), var(--Base));
+  font-family: "Yatra One", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  margin: 0; /* Margin makes */
+
+  color: var(--Text);
+}
+h1 {
+  /* top center of screen, Regardless of size */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.search {
+  position: relative;
+  height: 50px;
+}
+.search .input {
+  background-color: var(--Subtext1);
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 50px;
+  /*Rounded corners on the left*/
+  border-radius: 4% 0 0 8%;
+  transition: width 300ms ease;
+}
+
+.btn {
+  background-color: var(--Text);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  /*Rounded Borders*/
+  border-radius: 8%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  transition: transform 300ms ease;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
+}
+
+.search.active .input {
+  width: 200px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
+}

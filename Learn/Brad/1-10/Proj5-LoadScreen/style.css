@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&family=Yatra+One&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Yatra One", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+
+  margin: 0; /* Margin makes */
+  background-color: var(--Crust);
+  color: var(--Text);
+  -webkit-text-stroke: 0.3px var(--Crust);
+}
+h1 {
+  /* top center of screen, Regardless of size */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.bg {
+  background: url("https://source.unsplash.com/random/?indian") no-repeat center
+    center/cover;
+  position: absolute;
+  top: -30;
+  left: -30;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+.loading-text {
+  font-size: 50px;
+  color: var(--Text);
+}

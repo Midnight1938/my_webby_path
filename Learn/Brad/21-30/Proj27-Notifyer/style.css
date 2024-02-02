@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+
+  margin: 0; /* Margin makes */
+  background-color: var(--Crust);
+  color: var(--Text);
+}
+h1 {
+  /* top center of screen, Regardless of size */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--Rosewater);
+  color: var(--Base);
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn:focus {
+  outline: none;
+}
+
+#toasts {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.toast {
+  background-color: var(--Surface1);
+  color: var(--Peach);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+}
+
+.toast.info {
+  background-color: var(--Surface2);
+  color: var(--Text);
+}
+.toast.success {
+  background-color: var(--Green);
+  color: var(--Base);
+}
+.toast.error {
+  background-color: var(--Red);
+  color: var(--Base);
+}
