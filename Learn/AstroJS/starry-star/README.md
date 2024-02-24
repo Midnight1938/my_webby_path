@@ -1,8 +1,6 @@
 # Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
+## By [freeCodeCamp.org](https://www.youtu.be/e-hTm5VmofI)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
 [![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
@@ -52,3 +50,22 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Information
+
+- Slug
+  It is a part of the URL that identifies a particular page on a website in an easy to read form. In other words, it's the part of the URL that explains the page's content.
+  For example, the slug for the URL `https://example.com/hello-world` is `hello-world`.
+
+- Astro.props
+  Astro.props is a file that contains the metadata of the project. Its used to store the information about the project like the title, description, and the author of the project.
+  Eg:
+  
+  ```json
+  const {post} = Astro.props;
+  ```
+  
+  Here it is used to get the post data from the Astro.props file.
+
+- mdx
+  Markdown Extended. A very useful thing to look at later
