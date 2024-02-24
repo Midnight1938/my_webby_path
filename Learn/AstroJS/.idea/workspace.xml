@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a13d78f5-95d8-4f12-b589-a47c218e5449" name="Changes" comment="Rhythm Nation" />
+    <list default="true" id="a13d78f5-95d8-4f12-b589-a47c218e5449" name="Changes" comment="Extras" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,7 +45,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/home/skshm/Documents/Dev/My_Webby_Path/Learn/AstroJS/starry-star/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -67,7 +72,7 @@
       <workItem from="1708776788895" duration="610000" />
       <workItem from="1708777453997" duration="249000" />
       <workItem from="1708777708734" duration="4664000" />
-      <workItem from="1708783047427" duration="5906000" />
+      <workItem from="1708783047427" duration="6250000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing">
       <option name="closed" value="true" />
@@ -109,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708789200537</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Extras">
+      <option name="closed" value="true" />
+      <created>1708789523542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708789523542</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +144,8 @@
     <MESSAGE value="added tailwind" />
     <MESSAGE value="Functional Site" />
     <MESSAGE value="Rhythm Nation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rhythm Nation" />
+    <MESSAGE value="Extras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extras" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
