@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a13d78f5-95d8-4f12-b589-a47c218e5449" name="Changes" comment="added tailwind">
-      <change afterPath="$PROJECT_DIR$/starry-star/src/components/H1.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starry-star/src/components/Main.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starry-star/src/components/Post.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starry-star/src/components/PostList.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starry-star/src/components/header.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starry-star/src/content/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starry-star/src/pages/blog.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/starry-star/src/pages/blog/[slug].astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starry-star/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/starry-star/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starry-star/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/starry-star/src/layouts/Layout.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starry-star/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/starry-star/src/pages/index.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/starry-star/tailwind.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/starry-star/tailwind.config.mjs" afterDir="false" />
-    </list>
+    <list default="true" id="a13d78f5-95d8-4f12-b589-a47c218e5449" name="Changes" comment="Rhythm Nation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +67,7 @@
       <workItem from="1708776788895" duration="610000" />
       <workItem from="1708777453997" duration="249000" />
       <workItem from="1708777708734" duration="4664000" />
-      <workItem from="1708783047427" duration="5555000" />
+      <workItem from="1708783047427" duration="5906000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing">
       <option name="closed" value="true" />
@@ -107,7 +93,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708780635675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Functional Site">
+      <option name="closed" value="true" />
+      <created>1708789089564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708789089564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rhythm Nation">
+      <option name="closed" value="true" />
+      <created>1708789200537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708789200537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +129,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initializing" />
     <MESSAGE value="added tailwind" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tailwind" />
+    <MESSAGE value="Functional Site" />
+    <MESSAGE value="Rhythm Nation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rhythm Nation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
